@@ -1,0 +1,12 @@
+Nível 1: Básico (SELECT, WHERE, ORDER BY)
+
+Listar tudo: Selecione todos os dados da tabela Clientes.
+Colunas específicas: Liste apenas o nome e email de todos os clientes.
+Filtragem simples: Encontre todos os clientes que moram em 'São Paulo' ('SP').
+Filtragem com número: Encontre todos os produtos com preco maior que R$ 500,00.
+Filtragem com texto (LIKE): Encontre todos os produtos cujo nome contenha a palavra 'Teclado'.
+Ordenação: Liste todos os produtos ordenados do mais caro para o mais barato (preco decrescente).
+Ordenação dupla: Liste todos os clientes ordenados primeiro por estado (ascendente) e depois por nome (ascendente).
+Limitar resultados: Liste os 3 produtos mais caros.
+Status específico: Liste todos os id_pedido que estão com o status 'Pendente'.
+Datas: Liste todos os clientes que se cadastraram antes de '2024-03-01'.
