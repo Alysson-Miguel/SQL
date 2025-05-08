@@ -13,19 +13,6 @@ Este projeto consiste em um formulário HTML dinâmico que utiliza JavaScript pa
 
 O frontend apresenta um formulário HTML para o usuário inserir dados. Ao submeter o formulário, o JavaScript no frontend (utilizando a Fetch API) envia os dados para o servidor Node.js/Express. O servidor, por sua vez, recebe esses dados e os armazena no banco de dados local HeidiSQL.
 
-## Estrutura do Projeto
-
-├── DB/               # Arquivos relacionados ao banco de dados (podem conter scripts SQL)
-├── Forms/            # Contém os arquivos do frontend
-│   ├── Styles/       # Arquivos CSS para estilização
-│   │   └── style.css
-│   ├── Scripts/      # Arquivos JavaScript para interatividade e comunicação
-│   │   └── scripts.js
-│   └── index.html    # Arquivo HTML do formulário
-├── server.js         # Arquivo do servidor Node.js com Express
-├── package.json      # Arquivo de configuração do Node.js
-└── README.md         # Este arquivo
-
 ## Pré-requisitos
 
 Antes de executar o projeto, você precisará ter instalado:
